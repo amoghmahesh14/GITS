@@ -5,4 +5,4 @@ flake8==3.8.4
 pre-commit
 black
 graphviz
-big-picture
+git-big-picture
