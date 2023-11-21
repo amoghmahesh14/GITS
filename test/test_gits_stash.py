@@ -18,7 +18,7 @@ class TestGitsStash(unittest.TestCase):
         mock_popen.return_value = mocked_pipe
 
         args = None  # You can pass the args if needed
-        result = gits_stash.gits_stash(args)
+        result = gits_stash(args)
         self.assertTrue(result, "gits_stash function should return True")
 
     @patch("builtins.input", side_effect=["N"])
@@ -33,7 +33,7 @@ class TestGitsStash(unittest.TestCase):
         mock_popen.return_value = mocked_pipe
 
         args = None  # You can pass the args if needed
-        result = gits_stash.gits_stash(args)
+        result = gits_stash(args)
         self.assertTrue(result, "gits_stash function should return True")
 
 
