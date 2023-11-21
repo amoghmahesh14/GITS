@@ -8,7 +8,7 @@ def execute_gits_command():
     command = command_entry.get()
     command = re.findall(r'[^"\s]+|"[^"]*"', command)
     # print(command)
-    command_list = ['python3','/Users/harikrishnanv/Desktop/GITS/code/gits.py']
+    command_list = ['python']
     for sub_c in command:
         command_list.append(sub_c)
 
