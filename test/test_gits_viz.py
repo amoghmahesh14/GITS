@@ -32,24 +32,24 @@ class TestGitsVizFunc(unittest.TestCase):
         self.assertTrue(result)
         self.assertIn("ExpectedOutputString", mock_stdout.getvalue())
 
-    # @patch("sys.stdout", new_callable=StringIO)
-    # def test_gits_viz_func_with_exception(self, mock_stdout):
-    #     class Args:
-    #         g = True
-    #         f = "output.png"
-    #         s = True
+    @patch("sys.stdout", new_callable=StringIO)
+    def test_gits_viz_func_with_exception(self, mock_stdout):
+        class Args:
+            g = True
+            f = "output.png"
+            s = True
 
-    #     args = Args()
+        args = Args()
 
-    #     with patch("subprocess.Popen") as mock_popen:
-    #         mock_popen.side_effect = Exception("Mocked Exception")
+        with patch("gits_viz_func.subprocess.Popen") as mock_popen:
+            mock_popen.side_effect = Exception("Mocked Exception")
 
-    #         result = gits_viz_func(args)
+            result = gits_viz_func(args)
 
-    #     self.assertFalse(result)
-    #     self.assertIn(
-    #         "ERROR: gits viz command caught an exception", mock_stdout.getvalue()
-    #     )
+        self.assertFalse(result)
+        self.assertIn(
+            "ERROR: gits viz command caught an exception", mock_stdout.getvalue()
+        )
 
 
 if __name__ == "__main__":
