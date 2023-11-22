@@ -22,14 +22,12 @@ jobs:
           pip install -r requirements.txt
           pip install pytest-cov
 
-      - name: Run tests
+      - name: Run the tests
         run: |
-          cd ./test
-          pytest --cov-report xml:cov.xml --cov=./ ./
-
+          cd test
+          pytest --cov=./
+ 
       - name: Upload coverage to Codecov
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-        run: |
-          cd ./test
-          bash <(curl -s https://codecov.io/bash)
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
