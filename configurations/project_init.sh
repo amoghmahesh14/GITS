@@ -7,12 +7,12 @@ PROJECT_DIR=${SCRIPT_DIR%/*}
 RELATIVE_GITS_PATH="code/gits.py"
 
 # Check if python3 is available, otherwise use python
-if command -v python3 &> /dev/null; then
-    PYTHON_COMMAND="python3"
-else
+# if command -v python3 &> /dev/null; then
+#     PYTHON_COMMAND="python3"
+# else
     echo "Warning: python3 is not available, falling back to python."
     PYTHON_COMMAND="python"
-fi
+# fi
 
 GITS_EXEC_PATH="${PROJECT_DIR}/${RELATIVE_GITS_PATH}"
 

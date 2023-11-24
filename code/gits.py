@@ -1,4 +1,4 @@
-# /usr/bin/python3
+# /usr/bin/python
 
 import sys
 import argparse
@@ -31,7 +31,8 @@ from gits_pull import gits_pull
 from gits_stash import gits_stash
 from gits_viz import gits_viz_func
 from gits_squash import gits_squash
-
+from gits_stats import gits_stats
+from gits_freq import gits_freq
 
 logger_status = init_gits_logger()
 if not logger_status:
@@ -196,6 +197,12 @@ gits_squash_subparser.add_argument('-m',
                                    help='git squash commit message')
 
 gits_squash_subparser.set_defaults(func=gits_squash)
+
+gits_commit_stats = subparsers.add_parser('stats')
+gits_commit_stats.set_defaults(func=gits_stats)
+
+gits_commit_stats = subparsers.add_parser('frequency')
+gits_commit_stats.set_defaults(func=gits_freq)
 
 args = parser.parse_args()
 args.func(args)
