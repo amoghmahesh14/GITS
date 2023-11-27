@@ -16,6 +16,10 @@ def gits_stash_apply(args):
                                     stdout=PIPE, stderr=PIPE)
         stdout, stderr = process0.communicate()
         print(stdout.decode("utf-8"))
+
+        if stderr:
+            print(f"Error encountered while applying stashed files: {stderr}")
+
     except Exception as e:
         print("ERROR: gits stash command caught an exception")
         print("ERROR: {}".format(str(e)))
