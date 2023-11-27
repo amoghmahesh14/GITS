@@ -13,7 +13,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/harshitpatel96/GITS)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/harshitpatel96/GITS)
 
-![Lines of code](https://img.shields.io/tokei/lines/github/harshitpatel96/GITS)
+[//]: # (![Lines of code]&#40;https://img.shields.io/tokei/lines/github/harshitpatel96/GITS&#41;)
 
 
 
@@ -47,10 +47,13 @@
 
 
 # Demo
-## [Link to the Video Demo of GITS](https://youtu.be/ger3luJkSdA)
+# [Link to the Video Demo of GITS](https://youtu.be/ger3luJkSdA)
+
+# [Scorecard](https://github.com/amoghmahesh14/GITS/blob/master/PROJ3-selfAssessment.md)
+
 [![](https://github.com/pvinoda/GITS/blob/master/GITSvGIT.jpeg)](https://youtu.be/ger3luJkSdA "GITS demo")
 
-## [Scorecard](https://github.com/amoghmahesh14/GITS/blob/master/PROJ3-selfAssessment.md)
+
 
 ## About GITS
 GITS simplifies the often cumbersome and confusing commands of git to provide a user friendly experience to beginners in version control, as well as making it time efficient for proficient users. GITS also adds multiple features on top of git functionalities to provide a richer experience. 
