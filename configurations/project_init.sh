@@ -13,7 +13,7 @@ RELATIVE_GITS_PATH="code/gits.py"
     echo "Warning: python3 is not available, falling back to python."
     PYTHON_COMMAND="python"
 # fi
-
+python -m spacy download en_core_web_sm
 GITS_EXEC_PATH="${PROJECT_DIR}/${RELATIVE_GITS_PATH}"
 
 BASHRC=~/.bashrc

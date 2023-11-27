@@ -6,3 +6,5 @@ pre-commit
 black
 graphviz
 git-big-picture
+spacy
+fuzzywuzzy
