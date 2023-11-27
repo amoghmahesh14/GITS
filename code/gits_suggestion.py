@@ -21,7 +21,10 @@
 # SOFTWARE.
 
 import spacy
+import tkinter as tk
+from tkinter import ttk
 from fuzzywuzzy import process
+import spacy
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -49,18 +52,14 @@ command_descriptions = {
     "pull": "Pull and merge remote branch into the local branch. Updates the local branch with changes from the remote repository."
 }
 
-# Function to suggest git command based on user input using detailed descriptions with a sarcastic touch
 def suggest_git_command_sarcastic(user_input):
     user_input_doc = nlp(user_input.lower())
 
-    # Extract lemmatized verbs and nouns from user input
     verbs = [token.lemma_ for token in user_input_doc if token.pos_ == "VERB"]
     nouns = [chunk.lemma_ for chunk in user_input_doc.noun_chunks]
 
-    # Combine verbs and nouns for matching
     user_keywords = " ".join(verbs + nouns)
 
-    # Find the most similar command based on user keywords
     best_match, score = process.extractOne(user_keywords, command_descriptions.keys())
 
     if score >= 70:
@@ -70,6 +69,35 @@ def suggest_git_command_sarcastic(user_input):
         return "Well, your unparalleled brilliance has left me stumped. Could you provide more specific input?"
 
 def suggestion(args):
-    user_input = input("Enter the function you want to perform in a sentence or natural language: ")
-    suggested_command = suggest_git_command_sarcastic(user_input)
-    print(suggested_command)
+    global input_entry, output_text  # Declare input_entry and output_text as global variables
+
+    # Create the Tkinter GUI
+    root = tk.Tk()
+    root.title("Git Command Suggestion")
+
+    label = ttk.Label(root, text="Enter the function you want to perform in a sentence or natural language:")
+    label.pack(pady=10)
+
+    input_entry = ttk.Entry(root, width=40)
+    input_entry.pack(pady=10)
+
+    # Increase the number of rows in the Entry widget
+    input_entry.config(font=('Arial', 12))  # Increase font size
+    input_entry.config(width=60, justify='center')  # Adjust width and center text
+
+    def get_suggestion():
+        user_input = input_entry.get()
+        suggested_command = suggest_git_command_sarcastic(user_input)
+        output_text.config(state=tk.NORMAL)
+        output_text.delete(1.0, tk.END)
+        output_text.insert(tk.END, suggested_command)
+        output_text.config(state=tk.DISABLED)
+
+    button = ttk.Button(root, text="Get Suggestion", command=get_suggestion)
+    button.pack(pady=10)
+
+    output_text = tk.Text(root, height=5, width=50, wrap=tk.WORD, state=tk.DISABLED)
+    output_text.pack(pady=10)
+
+    # Run the Tkinter event loop
+    root.mainloop()
