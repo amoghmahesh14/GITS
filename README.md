@@ -45,6 +45,7 @@
 ## [Link to the Video Demo of GITS](https://www.youtube.com/watch?v=b5-aySJRoMc)
 [![](https://github.com/pvinoda/GITS/blob/master/GITSvGIT.jpeg)](https://www.youtube.com/watch?v=b5-aySJRoMc "GITS demo")
 
+## [Scorecard](https://github.com/amoghmahesh14/GITS/blob/master/PROJ3-selfAssessment.md)
 
 ## About GITS
 GITS simplifies the often cumbersome and confusing commands of git to provide a user friendly experience to beginners in version control, as well as making it time efficient for proficient users. GITS also adds multiple features on top of git functionalities to provide a richer experience. 
