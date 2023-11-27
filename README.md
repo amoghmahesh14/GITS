@@ -43,7 +43,7 @@
 
 # Demo
 ## [Link to the Video Demo of GITS](https://www.youtube.com/watch?v=b5-aySJRoMc)
-[![](https://github.com/pvinoda/GITS/blob/master/GITSvGIT.jpeg)](https://www.youtube.com/watch?v=b5-aySJRoMc "GITS demo")
+[![](https://github.com/pvinoda/GITS/blob/master/GITSvGIT.jpeg)](https://youtu.be/ger3luJkSdA "GITS demo")
 
 ## [Scorecard](https://github.com/amoghmahesh14/GITS/blob/master/PROJ3-selfAssessment.md)
 
