@@ -21,6 +21,11 @@
 - [About GITS](#about-gits)
 - [Motivation](#motivation)
 - [Improvements](#improvements)
+   + [GITS suggestor](#1-gits-suggestor)
+   + [GITS recommender](#2-gits-recommender)
+   + [GITS stats command](#3-gits-stats-command)
+   + [GITS frequency command](#4-gits-frequency-command)
+   + [GITS stash functionality](#5-gits-stash-functionality)
 - [Successful Usecases](#successful-usecases)
 - [Future Scope](#future-scope)
 - [Installation](#installation)
@@ -58,22 +63,22 @@ We hope that these features will help amateurs as well as experienced developers
 
 ## Improvements
 
-1. ### GITS suggestor
+### 1. GITS suggestor
    We provide a capability where the user can learn the command by giving a textual description of what they want to do in simple english.
 
-2. ### GITS recommender
-   This functionlaity provides the user with few recommendations. For instance, it tells the user if the the commit messages are too short historically and to improve upon it. It also suggests if the number of lines per commit is too big. The systems considers the best practises and recommends the user on what can eb done better.
-  
-3. ### GITS stats command
+### 2. GITS recommender
+   This functionlaity provides the user with few recommendations. For instance, it tells the user if the the commit messages are too short historically and to improve upon it. It also suggests if the number of lines per commit is too big. The systems considers the best practises and recommends the user on what can be done better.
+
+### 3. GITS stats command
    Wrapper which provides git statistics like number of commits, number of lines, major contributor etc.
-   
-4. ### GITS frequency command
+
+### 4. GITS frequency command
    Provides a graphical representation of commit frequency within the repository.
 
-6. ### GITS stash functionality
+### 5. GITS stash functionality
    Wrapper of git stash command.
 
-7. ### Fixed failing test cases
+### 6. Fixed failing test cases
    Code cov run workflow was failing as there were few test cases that were failing. Fixed such test cases
 
 ## Successful Usecases
