@@ -49,7 +49,7 @@
 # Demo
 # [Link to the Video Demo of GITS](https://youtu.be/ger3luJkSdA)
 
-# Intoduction to GITS and Improvements added
+# Introduction to GITS and Improvements added
 
 https://github.com/amoghmahesh14/GITS/assets/28365724/13544010-ab76-4adc-a651-058e94e43436
 
@@ -68,23 +68,23 @@ We hope that these features will help amateurs as well as experienced developers
 
 ## Improvements
 
-### 1. GITS suggestor
-   We provide a capability where the user can learn the command by giving a textual description of what they want to do in simple english.
+### 1. GITS Suggestor
+The GITS Suggestor is a pivotal feature designed to elevate the user experience. It empowers users to learn and execute commands through    straightforward English descriptions. This functionality is particularly beneficial for beginners grappling with Git commands and serves as a convenient quick reference for proficient users.
 
-### 2. GITS recommender
-   This functionlaity provides the user with few recommendations. For instance, it tells the user if the the commit messages are too short historically and to improve upon it. It also suggests if the number of lines per commit is too big. The systems considers the best practises and recommends the user on what can be done better.
+### 2. GITS Recommender
+Going beyond mere command simplification, the GITS Recommender actively guides users toward best practices. By analyzing historical commit data, it provides insightful recommendations for enhancing commit messages and optimizing the number of lines per commit. This proactive approach fosters adherence to Git best practices, thereby elevating the overall quality of version control.
 
-### 3. GITS stats command
-   Wrapper which provides git statistics like number of commits, number of lines, major contributor etc.
+### 3. GITS Stats Command
+The GITS Stats Command acts as a comprehensive wrapper, offering users detailed statistics about their Git repository. This includes vital information such as the number of commits, lines of code, and major contributors. This feature streamlines the process of obtaining crucial repository insights, facilitating informed decision-making for developers.
 
-### 4. GITS frequency command
-   Provides a graphical representation of commit frequency within the repository.
+### 4. GITS Frequency Command
+Introducing a graphical representation of commit frequency within the repository, the GITS Frequency Command enhances user understanding of commit patterns over time. This visual aid is instrumental in improving project management and coordination among team members.
 
-### 5. GITS stash functionality
-   Wrapper of git stash command.
+### 5. GITS Stash Functionality
+Serving as a wrapper for the Git stash command, the GITS Stash Functionality simplifies the process of temporarily saving changes. This enhancement makes the stash feature more accessible and user-friendly, catering to both beginners and experienced developers.
 
-### 6. Fixed failing test cases
-   Code cov run workflow was failing as there were few test cases that were failing. Fixed such test cases
+### 6. Fixed Failing Test Cases
+The commitment to code quality and reliability is evident in the resolution of failing test cases. By addressing these issues, GITS ensures a more robust and stable codebase, instilling confidence in users regarding the tool's reliability. This dedication to bug resolution significantly contributes to the overall improvement of the GITS project.
 
 ## Successful Usecases
 
