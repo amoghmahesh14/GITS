@@ -58,7 +58,7 @@ We hope that these features will help amateurs as well as experienced developers
 
 ## Improvements
 
-1. ### GITS suggestor command
+1. ### GITS suggestor
    We provide a capability where the user can learn the command by giving a textual description of what they want to do in simple english.
 
 2. ### GITS recommender
