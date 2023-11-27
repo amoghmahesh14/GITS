@@ -15,22 +15,47 @@
 
 ![Lines of code](https://img.shields.io/tokei/lines/github/harshitpatel96/GITS)
 
+
+
+- [Demo](#demo)
+- [About GITS](#about-gits)
+- [Motivation](#motivation)
+- [Improvements](#improvements)
+- [Successful Usecases](#successful-usecases)
+- [Future Scope](#future-scope)
+- [Installation](#installation)
+    + [Installation for Linux](#installation-for-linux)
+    + [Installation for Windows](#installation-for-windows)
+- [Documentation](#documentation)
+    + [Functions Implemented](#functions-implemented)
+    + [Pydoc Implementation](#pydoc-implementation)
+- [How to use](#how-to-use)
+    + [Use these Commands to harness the power of GITS](#use-these-commands-to-harness-the-power-of-gits) 
+    + [How to judge GITS](#how-to-judge-gits)
+- [Technologies Used](#technologies-used)
+- [Troubleshooting](#troubleshooting)
+- [Project Funding](#project-funding)
+- [License](#license)
+- [How to Contribute](#how-to-contribute)
+- [Team Members](#team-members)
+- [Recommended citation](#recommended-citation)
+
+
+# Demo
+## [Link to the Video Demo of GITS](https://www.youtube.com/watch?v=b5-aySJRoMc)
 [![](https://github.com/pvinoda/GITS/blob/master/GITSvGIT.jpeg)](https://www.youtube.com/watch?v=b5-aySJRoMc "GITS demo")
 
-## [Link to the Video Demo of GITS](https://www.youtube.com/watch?v=b5-aySJRoMc)
-# The What??
+
 ## About GITS
 GITS simplifies the often cumbersome and confusing commands of git to provide a user friendly experience to beginners in version control, as well as making it time efficient for proficient users. GITS also adds multiple features on top of git functionalities to provide a richer experience. 
 
-
-# The Why ??
 
 ## Motivation
 Git is the most popular version control system used by developers all around the world. Given its ubiquity, most newbies find it daunting to understand some of the commands in Git.
 We aim to simplify some commands by make them more powerful by combining related commands into one intuitive command. We also alleviate confusion in some commands by making them more intuitive.
 We hope that these features will help amateurs as well as experienced developers to use git. 
 
-## Key features
+## Improvements
 
 1. ### Interactive GUI
    We provide a simple yet effective GUI which takes in commands as input and then executes them. This makes it easy for users unfamiliar with the terminal.
@@ -44,7 +69,10 @@ We hope that these features will help amateurs as well as experienced developers
 5. ### Advanced Visualisation Capabilities
    We introduce gits viz command that provides the git log functionality along with the feature that allows users to download a Directed Acyclic Graph Representation of the hierarchy of tags and branches 
 
-## Potential Ideas for Phase 3
+## Successful Usecases
+
+
+## Future Scope
 
 1. ### Enhancing the GUI to include advanced functionality 
    Contributors can think of enhancing the GUI implemented here to include branch information & commit history. They can also eschew the use of commands by introducing GUI elements to perform the functionality.
@@ -55,8 +83,13 @@ We hope that these features will help amateurs as well as experienced developers
 3. ### Make the project more accessible by making GITS commands accessible to the local system.
    The lacunae that exists currently is that we need to clone the repository for each project to utilise GITS functionality. A feature that can be added is to make this global to the system where the repo is cloned. 
 
+### Technologies Used
+* Python
+* Tkinter
+* Shell
 
-# Installation for Linux
+## Installation
+### Installation for Linux
 1. Clone GITS Repo
 2. From the root directory run the following command
     ```
@@ -79,7 +112,7 @@ We hope that these features will help amateurs as well as experienced developers
     
     Note: Open the .bashrc file in User home directory to make sure that the alias command does not have any white spaces in the path. If so, rename the directory to remove the white spaces and re-run the setup.
 
-# Installation for Windows
+### Installation for Windows
 1. Clone GITS Repo
 2. From the root directory run the following command
     ```
@@ -93,7 +126,7 @@ virtual machine might be preferred.
 
 
 # Documentation
-## Functionalities Implemented
+## Functions Implemented
 These are the functionalities that we have implemented. The links are updated to point to the individual documentation.
 
 1. [gits profile](https://github.com/pvinoda/GITS/blob/phase2_se23_team71/docs/profile.md)
@@ -123,7 +156,7 @@ These are the functionalities that we have implemented. The links are updated to
 
 
 
-## Pydoc implementation
+## Pydoc Implementation
 For easier access of Documentation use pydoc, run the following command, it will take you to a browser where you can view the documentation for all the files and directories.
 
 `cd code`<br>
@@ -133,7 +166,7 @@ For easier access of Documentation use pydoc, run the following command, it will
 This repository is made for CSC 510 Software Engineering Course at NC State University.
 
 
-
+## How to use
 ### Use these Commands to harness the power of GITS
 Use these commands to test GITS
 
@@ -150,10 +183,37 @@ Use these commands to test GITS
 
 
 
-### How to judge GITS??
+### How to judge GITS
 
-1. Does this improve the way you work with git?? 
-2. Did the process of creating a branch, committing, pushing changes and visualising the branch felt easier ??. 
-3. Has the GUI made it easier for you to interact with your repo.??
-4. Has advanced commit functionality helped you in committing efficiently?? Does this functionality make your commit history more intuitive and understanding
+1. Does this improve the way you work with git?
+2. Did the process of creating a branch, committing, pushing changes and visualising the branch felt easier? 
+3. Has the GUI made it easier for you to interact with your repo?
+4. Has advanced commit functionality helped you in committing efficiently? Does this functionality make your commit history more intuitive and understanding
 
+
+## Troubleshooting
+
+
+## Project Funding
+Our project is currently not funded and operates on a volunteer and open-source basis. The improvement of the project relies solely on the dedication of our team and contributions from the open-source community.
+
+## License
+The project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) license. 
+
+## How to Contribute?
+Please see our CONTRIBUTING.md for instructions on how to contribute to the repository and assist us in improving the project.
+
+## Have Questions or Need Assistance?
+If you have any questions, need help, or want to provide feedback about the GITS, feel free to contact us at aditya.a.chitlangia@gmail.com.
+
+Your inquiries and suggestions are always welcome!
+
+## Team Members
+- Amogh Mahesh
+- Aditya Chitlangia
+- Abhishek Arun Sheth
+- Sachin Rudrappa Doddaguni
+
+## Recommended Citation
+GITS Amogh Mahesh, Aditya Chitlangia, Abhishek Arun Sheth, Sachin Rudrappa Doddaguni. 2023.
+[https://github.com/amoghmahesh14/GITS]
