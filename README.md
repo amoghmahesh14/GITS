@@ -207,7 +207,17 @@ Use these commands to test GITS
 
 
 ## Troubleshooting
+If you encounter issues while using GITS, here are some common problems and their solutions:
 
+### Problem 1: Unable to Start the Application
+
+**Symptoms:** The application doesn't start, or you encounter an error when trying to run it.
+
+**Solution:**
+1. Ensure you have met the installation requirements mentioned in the README.
+2. Double-check that you have the required versions of Python and all requirements installed.
+3. Make sure you have executed the initialization script using `./project_init.sh` to install necessary packages.
+4. Check for any error messages in the console output and address them accordingly.
 
 ## Project Funding
 Our project is currently not funded and operates on a volunteer and open-source basis. The improvement of the project relies solely on the dedication of our team and contributions from the open-source community.
