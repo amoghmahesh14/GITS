@@ -58,17 +58,23 @@ We hope that these features will help amateurs as well as experienced developers
 
 ## Improvements
 
-1. ### Interactive GUI
-   We provide a simple yet effective GUI which takes in commands as input and then executes them. This makes it easy for users unfamiliar with the terminal.
+1. ### GITS suggestor command
+   We provide a capability where the user can learn the command by giving a textual description of what they want to do in simple english.
 
-2. ### Advanced Commit Functionality
-   We provide a functionality to automatically add most used commit messages. Simplifying the usage of git commit command
+2. ### GITS recommender
+   This functionlaity provides the user with few recommendations. For instance, it tells the user if the the commit messages are too short historically and to improve upon it. It also suggests if the number of lines per commit is too big. The systems considers the best practises and recommends the user on what can eb done better.
   
-3. ### Squash Command
-   We introduce the gits squash command that combines changes of last N commits and squash them into one. The number N can be provided using the -N argument, and the combined message for the commit is provided using the -M argument 
+3. ### GITS stats command
+   Wrapper which provides git statistics like number of commits, number of lines, major contributor etc.
    
-4. ### Advanced Visualisation Capabilities
-   We introduce gits viz command that provides the git log functionality along with the feature that allows users to download a Directed Acyclic Graph Representation of the hierarchy of tags and branches 
+4. ### GITS frequency command
+   Provides a graphical representation of commit frequency within the repository.
+
+6. ### GITS stash functionality
+   Wrapper of git stash command.
+
+7. ### Fixed failing test cases
+   Code cov run workflow was failing as there were few test cases that were failing. Fixed such test cases
 
 ## Successful Usecases
 
@@ -85,18 +91,6 @@ Aditya started using GITS for his development process. He saved lots of time and
 
 **The Outcome:**
 With GITS, Aditya quickly became a professional user of version control tool and started to develop at a much quicker pace than before.
-
-
-## Future Scope
-
-1. ### Enhancing the GUI to include advanced functionality 
-   Contributors can think of enhancing the GUI implemented here to include branch information & commit history. They can also eschew the use of commands by introducing GUI elements to perform the functionality.
-
-2. ### Suggestive command line interaction
-   A good addition to the project would be to provide suggestive messages to the user when they enter a wrong or unintended command. This functionality can be extended to the oft misinterpreted/confusing commands.
-
-3. ### Make the project more accessible by making GITS commands accessible to the local system.
-   The lacunae that exists currently is that we need to clone the repository for each project to utilise GITS functionality. A feature that can be added is to make this global to the system where the repo is cloned. 
 
 ### Technologies Used
 * Python
@@ -218,6 +212,7 @@ If you encounter issues while using GITS, here are some common problems and thei
 2. Double-check that you have the required versions of Python and all requirements installed.
 3. Make sure you have executed the initialization script using `./project_init.sh` to install necessary packages.
 4. Check for any error messages in the console output and address them accordingly.
+5. Its tricky to install tkinter. Install tkinter specific to the version of python you are using.
 
 ## Project Funding
 Our project is currently not funded and operates on a volunteer and open-source basis. The improvement of the project relies solely on the dedication of our team and contributions from the open-source community.
