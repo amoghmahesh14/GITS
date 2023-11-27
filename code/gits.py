@@ -34,6 +34,7 @@ from gits_squash import gits_squash
 from gits_stats import gits_stats
 from gits_freq import gits_freq
 from gits_rec import gits_rec
+from gits_suggestion import suggestion
 
 logger_status = init_gits_logger()
 if not logger_status:
@@ -207,6 +208,9 @@ gits_commit_freq.set_defaults(func=gits_freq)
 
 gits_commit_rec = subparsers.add_parser('rec')
 gits_commit_rec.set_defaults(func=gits_rec)
+
+gits_commit_rec = subparsers.add_parser('suggest')
+gits_commit_rec.set_defaults(func=suggestion)
 
 args = parser.parse_args()
 args.func(args)

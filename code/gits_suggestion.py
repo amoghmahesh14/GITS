@@ -1,12 +1,8 @@
-pip install spacy fuzzywuzzy
-python -m spacy download en_core_web_sm
 import spacy
 from fuzzywuzzy import process
 
-# Load English language model
 nlp = spacy.load("en_core_web_sm")
 
-# Descriptions of gits commands with more details
 command_descriptions = {
     "profile": "Change the git account quickly with a single command. Useful for switching between personal and enterprise accounts.",
     "rebase": "Simplified version of git rebase command. Interactively rebase the branch off master, simplifying the process.",
@@ -51,7 +47,7 @@ def suggest_git_command_sarcastic(user_input):
     else:
         return "Well, your unparalleled brilliance has left me stumped. Could you provide more specific input?"
 
-if __name__ == "__main__":
+def suggestion(args):
     user_input = input("Enter the function you want to perform in a sentence or natural language: ")
     suggested_command = suggest_git_command_sarcastic(user_input)
     print(suggested_command)
