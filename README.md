@@ -26,6 +26,7 @@
    + [GITS stats command](#3-gits-stats-command)
    + [GITS frequency command](#4-gits-frequency-command)
    + [GITS stash functionality](#5-gits-stash-functionality)
+   + [Fixed Failing Test Cases](#6-fixed-failing-test-cases)
 - [Successful Usecases](#successful-usecases)
 - [Future Scope](#future-scope)
 - [Installation](#installation)
