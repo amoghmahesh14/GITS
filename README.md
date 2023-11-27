@@ -63,13 +63,27 @@ We hope that these features will help amateurs as well as experienced developers
 2. ### Advanced Commit Functionality
    We provide a functionality to automatically add most used commit messages. Simplifying the usage of git commit command
   
-4. ### Squash Command
+3. ### Squash Command
    We introduce the gits squash command that combines changes of last N commits and squash them into one. The number N can be provided using the -N argument, and the combined message for the commit is provided using the -M argument 
    
-5. ### Advanced Visualisation Capabilities
+4. ### Advanced Visualisation Capabilities
    We introduce gits viz command that provides the git log functionality along with the feature that allows users to download a Directed Acyclic Graph Representation of the hierarchy of tags and branches 
 
 ## Successful Usecases
+
+### Case Study 1: Improving efficiency using GITS
+
+**Background:**
+Aditya, a beginner software engineer wants to start developing a software using version control. 
+
+**The Problem:**
+Aditya was becoming frustrated and confused with the cumbersome git commands. He wasted lots of time figuring it out.
+
+**The Solution:**
+Aditya started using GITS for his development process. He saved lots of time and started to enjoy using version control.
+
+**The Outcome:**
+With GITS, Aditya quickly became a professional user of version control tool and started to develop at a much quicker pace than before.
 
 
 ## Future Scope
