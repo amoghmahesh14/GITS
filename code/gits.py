@@ -52,6 +52,7 @@ from gits_branch import gits_branch
 from gits_init import gits_init
 from gits_pull import gits_pull
 from gits_stash import gits_stash
+from gits_stash_apply import gits_stash_apply
 from gits_viz import gits_viz_func
 from gits_squash import gits_squash
 from gits_stats import gits_stats
@@ -200,6 +201,8 @@ gits_pull_subparser.set_defaults(func=gits_pull)
 gits_stash_subparser = subparsers.add_parser("stash")
 gits_stash_subparser.set_defaults(func=gits_stash)
 
+gitsh_stash_apply_subparser = subparsers.add_parser("stash_apply")
+gitsh_stash_apply_subparser.set_defaults(func=gits_stash_apply)
 
 gits_viz_subparser = subparsers.add_parser('viz')
 gits_viz_subparser.add_argument('-g', help="flag to visualize branches",required=False,action='store_true')
