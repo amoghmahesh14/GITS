@@ -43,8 +43,6 @@ def recommend_average_lines():
 
     if average_lines > 50:
         recommendations.append(colorize_text("\nRecommendation 1. The average number of lines per commit is high. Consider smaller, more focused commits.", 91, 40))  # Red background
-    elif average_lines < 10:
-        recommendations.append(colorize_text("\nRecommendation 1. The average number of lines per commit is low. Consider more comprehensive commits.", 91, 40))  # Red background
     else:
         recommendations.append(colorize_text("\nRecommendation 1. The average number of lines per commit is within a reasonable range.", 92, 40))  # Green background
 
