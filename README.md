@@ -188,6 +188,9 @@ These are the functionalities that we have implemented. The links are updated to
 24. [gits pull](https://github.com/amoghmahesh14/GITS/blob/master/docs/pull.md)
 25. [gits stash apply](https://github.com/amoghmahesh14/GITS/blob/master/docs/stash_apply.md)
 26. [gits stash pop](https://github.com/amoghmahesh14/GITS/blob/master/docs/stash_pop.md)
+27. [gits rec](https://github.com/amoghmahesh14/GITS/blob/master/docs/recommender.md)
+28. [gits suggest](https://github.com/amoghmahesh14/GITS/blob/master/docs/suggestion.md)
+29. [gits freq](https://github.com/amoghmahesh14/GITS/blob/master/docs/freq.md)
 
 
 
