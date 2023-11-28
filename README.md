@@ -100,7 +100,7 @@ Aditya started using GITS for his development process. He saved lots of time and
 **The Outcome:**
 With GITS, Aditya quickly became a professional user of version control tool and started to develop at a much quicker pace than before.
 
-### Case Study 1: Streamlining Development with GITS Innovations
+### Case Study 2: Streamlining Development with GITS Innovations
 
 **Background:**
 Abhishek, an experienced software developer, leads a team in a fast-paced development environment. The team faces challenges in maintaining a consistent and optimized version control process.
