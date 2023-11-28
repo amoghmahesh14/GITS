@@ -55,8 +55,6 @@ https://github.com/amoghmahesh14/GITS/assets/28365724/13544010-ab76-4adc-a651-05
 
 # [Scorecard](https://github.com/amoghmahesh14/GITS/blob/master/PROJ3-selfAssessment.md)
 
-[![](https://github.com/pvinoda/GITS/blob/master/GITSvGIT.jpeg)](https://youtu.be/ger3luJkSdA "GITS demo")
-
 ## About GITS
 GITS simplifies the often cumbersome and confusing commands of git to provide a user friendly experience to beginners in version control, as well as making it time efficient for proficient users. GITS also adds multiple features on top of git functionalities to provide a richer experience. 
 
