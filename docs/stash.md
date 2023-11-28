@@ -4,7 +4,7 @@ not want to commit yet. It allows you to set aside your changes and return your 
 state. 
 
 # Location of Code
-The code that implements the abovementioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_stash.py).
+The code that implements the abovementioned gits functionality is located [here](https://github.com/amoghmahesh14/GITS/blob/master/code/gits_stash.py).
 
 # Code Description
 The gits stash generates an input prompt that asks for a label. If no label is provided, it saves with a random stash ID.

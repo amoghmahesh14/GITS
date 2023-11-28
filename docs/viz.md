@@ -2,7 +2,7 @@
 gits viz provides the capability to visualise the commit history and branches. It combines the capabilities of git log and provides the extra feature to visualise the branches and commit history through a Directed Acyclic Graph (DAG). This graph will be stored in the configurations folder as a .png file
 
 # Location of Code
-The code that implements the above mentioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_viz.py).
+The code that implements the above mentioned gits functionality is located [here](https://github.com/amoghmahesh14/GITS/blob/master/code/gits_viz.py).
 
 # Code Description
 ## Functions

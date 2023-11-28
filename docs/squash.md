@@ -4,7 +4,7 @@ concise commit history. This can be useful when you have a series of small, incr
 consolidate into a more meaningful and comprehensible unit of work.
 
 # Location of Code
-The code that implements the abovementioned gits functionality is located [here](https://github.com/pvinoda/GITS/blob/master/code/gits_squash.py).
+The code that implements the abovementioned gits functionality is located [here](https://github.com/amoghmahesh14/GITS/blob/master/code/gits_squash.py).
 
 # Code Description
 The Python function, `gits_squash`, is designed to automate the process of squashing the last 'n' commits into a 
