@@ -7,7 +7,7 @@
 [![Build Status](https://travis-ci.com/harshitpatel96/GITS.svg?branch=master)](https://travis-ci.com/harshitpatel96/GITS)
 [![codecov](https://codecov.io/gh/harshitpatel96/GITS/branch/master/graph/badge.svg?token=G6RG52G2YO)](https://codecov.io/gh/harshitpatel96/GITS/)
 
-[![DOI](https://zenodo.org/badge/704961751.svg)](https://zenodo.org/doi/10.5281/zenodo.10023186)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10212028.svg)](https://doi.org/10.5281/zenodo.10212028)
 
 ![GitHub issues](https://img.shields.io/github/issues/harshitpatel96/GITS)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/harshitpatel96/GITS)
