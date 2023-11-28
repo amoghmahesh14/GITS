@@ -186,6 +186,8 @@ These are the functionalities that we have implemented. The links are updated to
 22. [gits merge](https://github.com/amoghmahesh14/GITS/blob/master/docs/merge.md)
 23. [gits push](https://github.com/amoghmahesh14/GITS/blob/master/docs/push.md)
 24. [gits pull](https://github.com/amoghmahesh14/GITS/blob/master/docs/pull.md)
+25. [gits stash apply](https://github.com/amoghmahesh14/GITS/blob/master/docs/stash_apply.md)
+26. [gits stash pop](https://github.com/amoghmahesh14/GITS/blob/master/docs/stash_pop.md)
 
 
 
